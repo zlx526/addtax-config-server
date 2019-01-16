@@ -7,10 +7,10 @@ server:
   port: 8001
 
 mybatis:
-  config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: com.XXX.entity
+  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
+  type-aliases-package: com.atguigu.springcloud.entities    # 所有Entity别名类所在包
   mapper-locations:
-  - classpath:mybatis/mapper/**/*.xml
+  - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
 spring:
   profiles: dev
   application:
@@ -38,10 +38,10 @@ server:
   port: 8001
 
 mybatis:
-  config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: com.XXX.entity
+  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
+  type-aliases-package: com.atguigu.springcloud.entities    # 所有Entity别名类所在包
   mapper-locations:
-  - classpath:mybatis/mapper/**/*.xml
+  - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
 spring:
   profiles: test
   application:
