@@ -14,7 +14,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/mysql01
     username: root
-    password: 123456
+    password: zlx13688663261
     dbcp2:
       min-idle: 5
       initial-size: 5
@@ -52,7 +52,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/mysql02
     username: root
-    password: 123456
+    password: zlx13688663261
     dbcp2:
       min-idle: 5
       initial-size: 5
